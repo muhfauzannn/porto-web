@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  @apply font-mono;
+}
+
+.custom-bg{
+  background-image: url('./assets/pattern.png');
+  background-size: 300px;
+}
