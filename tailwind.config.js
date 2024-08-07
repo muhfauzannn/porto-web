@@ -10,6 +10,9 @@ export default {
         calora: ['Calora', 'sans-serif'],
         'calora-italic': ['Calora Italic', 'sans-serif'],
       },
+      margin:{
+        'screen': '100vh',
+      },
     },
   },
   plugins: [],
