@@ -5,7 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        calora: ['Calora', 'sans-serif'],
+        'calora-italic': ['Calora Italic', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }

@@ -2,6 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@font-face {
+  font-family: 'Calora';
+  src: url('/src/assets/font/Calora.woff2') format('woff2'),
+       url('/src/assets/font/Calora.woff') format('woff'),
+       url('/src/assets/font/Calora.ttf') format('truetype'),
+       url('/src/assets/font/Calora.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Calora Italic';
+  src: url('/src/assets/font/Calora Italic.woff2') format('woff2'),
+       url('/src/assets/font/Calora Italic.woff') format('woff'),
+       url('/src/assets/font/Calora Italic.ttf') format('truetype'),
+       url('/src/assets/font/Calora Italic.otf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}
+
 body {
   @apply font-mono;
 }
@@ -9,4 +30,19 @@ body {
 .custom-bg{
   background-image: url('./assets/pattern.png');
   background-size: 300px;
+}
+@keyframes spinner {
+  from{
+    transform: translateX(0);
+  }
+  to{
+    transform: translateX(-100%);
+  }
+}
+
+.custom-spinner{
+  animation: spinner 20s linear infinite;
+} 
+.custom-size-font{
+  font-size: 25rem;
 }
