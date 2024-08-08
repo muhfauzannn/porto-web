@@ -42,7 +42,7 @@ function CardHero() {
           <CardHero />
           <NameSpin />
           
-          <div className='absolute bottom-0 w-2/3 max-w-xl max-md:w-8/12 max-sm:w-10/12 left-2/4 -translate-x-2/4'>
+          <div className='absolute bottom-0 w-2/3 max-w-lg max-md:w-8/12 max-sm:w-10/12 left-2/4 -translate-x-2/4'>
             <img src='src/assets/photo.png'></img>
           </div>
   
@@ -50,10 +50,10 @@ function CardHero() {
   
             <div className='p-2 max-md:p-0 max-md:-translate-x-full'>
               <div className="flex gap-5 max-md:flex-col">
-                <a href='#' className='hover:scale-125 transition-all'><i class="fi fi-brands-instagram text-xl"></i></a>
-                <a href='#' className='hover:scale-125 transition-all'><i class="fi fi-brands-whatsapp text-xl "></i></a>
-                <a href='#' className='hover:scale-125 transition-all'><i class="fi fi-brands-twitter-alt text-xl"></i></a>
-                <a href='#' className='hover:scale-125 transition-all'><i class="fi fi-brands-linkedin text-xl"></i></a>
+                <a href='https://www.instagram.com/mfauuzaannn/' className='hover:scale-125 transition-all'><i class="fi fi-brands-instagram text-xl"></i></a>
+                <a href='https://wa.me/6285155349773/' className='hover:scale-125 transition-all'><i class="fi fi-brands-whatsapp text-xl "></i></a>
+                <a href='https://x.com/mineszero14' className='hover:scale-125 transition-all'><i class="fi fi-brands-twitter-alt text-xl"></i></a>
+                <a href='https://www.linkedin.com/in/muhammad-fauzan14/' className='hover:scale-125 transition-all'><i class="fi fi-brands-linkedin text-xl"></i></a>
               </div>
             </div>
   

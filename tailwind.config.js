@@ -13,6 +13,9 @@ export default {
       margin:{
         'screen': '100vh',
       },
+      height:{
+        'hr' :'1px'
+      }
     },
   },
   plugins: [],
