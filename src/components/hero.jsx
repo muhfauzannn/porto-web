@@ -11,7 +11,7 @@ function CardHero() {
               <img src={logo} className='h-8'></img>
               <p className='text-lg max-sm:text-base font'>Muhammad Fauzan's Portofolio</p>
             </div>
-            <a href='#'>
+            <a href='https://github.com/muhfauzannn'>
               <div className='flex items-center gap-2'>
                 <img src={githubLogo} className='h-5'></img>
                 <p className='text-sm max-sm:hidden'>Visit My Github</p>
