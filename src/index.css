@@ -24,7 +24,7 @@
 }
 
 body {
-  @apply font-mono;
+  font-family: "Roboto Mono", monospace;
 }
 
 .custom-bg{

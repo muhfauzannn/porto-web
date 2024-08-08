@@ -7,7 +7,7 @@ function CardHero() {
        <div className="flex justify-between py-2 px-6 bg-white w-11/12 absolute top-4 left-2/4 -translate-x-2/4 rounded-md items-center transition-all hover:top-7">
             <div className='flex items-center gap-4'>
               <img src={logo} className='h-8'></img>
-              <p className='text-lg font-medium max-sm:text-base'>Muhammad Fauzan's Portofolio</p>
+              <p className='text-lg max-sm:text-base font'>Muhammad Fauzan's Portofolio</p>
             </div>
             <a href='#'>
               <div className='flex items-center gap-2'>
