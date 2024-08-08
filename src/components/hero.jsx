@@ -1,5 +1,5 @@
 import React from "react"
-import logo from '../assets/logo.png'
+import logo from '../../public/logo.png'
 
 function CardHero() {
     return(
@@ -11,7 +11,7 @@ function CardHero() {
             </div>
             <a href='#'>
               <div className='flex items-center gap-2'>
-                <img src='src/assets/github.png' className='h-5'></img>
+                <img src='../../public/github.png' className='h-5'></img>
                 <p className='text-sm max-sm:hidden'>Visit My Github</p>
               </div>
             </a>
@@ -43,7 +43,7 @@ function CardHero() {
           <NameSpin />
           
           <div className='absolute bottom-0 w-2/3 max-w-lg max-md:w-8/12 max-sm:w-10/12 left-2/4 -translate-x-2/4'>
-            <img src='src/assets/photo.png'></img>
+            <img src='../../public/photo.png'></img>
           </div>
   
           <div className="flex justify-between py-2 px-6 w-11/12 absolute bottom-4 left-2/4 -translate-x-2/4 items-center">
