@@ -2,7 +2,7 @@ import RealTimeClock from './time';
 import React from "react"
 
 export default function Footer() {
-  
+
     return(
       <>
       <div className='bg-white text-black flex justify-center'>
@@ -33,14 +33,14 @@ export default function Footer() {
                 </div>
               </a>
   
-              <a href='https://x.com/mineszero14'>
+              <a href='https://www.linkedin.com/in/muhammad-fauzan14/'>
                 <div className='flex w-60 justify-between py-4 px-3 border-2 border-black rounded-md group hover:bg-black transition-all'>
                   <p className='group-hover:text-white'>Linkedin</p>
                   <i class="fi fi-br-arrow-up-right group-hover:text-white"></i>
                 </div>
               </a>
   
-              <a href='https://www.linkedin.com/in/muhammad-fauzan14/'>
+              <a href='https://x.com/mineszero14'>
                 <div className='flex w-60 justify-between py-4 px-3 border-2 border-black rounded-md group hover:bg-black transition-all'>
                   <p className='group-hover:text-white'>Twitter</p>
                   <i class="fi fi-br-arrow-up-right group-hover:text-white"></i>
