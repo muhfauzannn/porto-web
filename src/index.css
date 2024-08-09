@@ -29,7 +29,7 @@ body {
 }
 
 .custom-bg{
-  background-image: url('./assets/pattern.png');
+  background-image: url('../public/pattern.png');
   background-size: 300px;
 }
 @keyframes spinner {
