@@ -1,4 +1,3 @@
-import React from "react"
 import logo from '/logo.png'
 import githubLogo from '/github.png'
 import profilePhoto from '/photo.png'
@@ -9,7 +8,7 @@ function CardHero() {
        <div className="flex justify-between py-2 px-6 bg-white w-11/12 absolute top-4 left-2/4 -translate-x-2/4 rounded-md items-center transition-all hover:top-7">
             <div className='flex items-center gap-4'>
               <img src={logo} className='h-8'></img>
-              <p className='text-lg max-sm:text-base font'>Muhammad Fauzan's Portofolio</p>
+              <p className='text-lg max-sm:text-base font'>Muhammad Fauzan&apos;s Portofolio</p>
             </div>
             <a href='https://github.com/muhfauzannn'>
               <div className='flex items-center gap-2'>
@@ -52,15 +51,11 @@ function CardHero() {
   
             <div className='p-2 max-md:p-0 max-md:-translate-x-full'>
               <div className="flex gap-5 max-md:flex-col">
-                <a href='https://www.instagram.com/mfauuzaannn/' className='hover:scale-125 transition-all'><i class="fi fi-brands-instagram text-xl"></i></a>
-                <a href='https://wa.me/6285155349773/' className='hover:scale-125 transition-all'><i class="fi fi-brands-whatsapp text-xl "></i></a>
-                <a href='https://x.com/mineszero14' className='hover:scale-125 transition-all'><i class="fi fi-brands-twitter-alt text-xl"></i></a>
-                <a href='https://www.linkedin.com/in/muhammad-fauzan14/' className='hover:scale-125 transition-all'><i class="fi fi-brands-linkedin text-xl"></i></a>
+                <a href='https://www.instagram.com/mfauuzaannn/' className='hover:scale-125 transition-all'><i className="fi fi-brands-instagram text-xl"></i></a>
+                <a href='https://wa.me/6285155349773/' className='hover:scale-125 transition-all'><i className="fi fi-brands-whatsapp text-xl "></i></a>
+                <a href='https://x.com/mineszero14' className='hover:scale-125 transition-all'><i className="fi fi-brands-twitter-alt text-xl"></i></a>
+                <a href='https://www.linkedin.com/in/muhammad-fauzan14/' className='hover:scale-125 transition-all'><i className="fi fi-brands-linkedin text-xl"></i></a>
               </div>
-            </div>
-  
-            <div className='flex items-center gap-4 p-2 bg-black rounded-md max-md:hidden'>
-              <p className='text-lg font-medium max-sm:text-base text-white'>© 2024</p>
             </div>
   
           </div>

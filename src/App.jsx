@@ -1,9 +1,9 @@
-import Hero from './components/hero'
-import About from './components/about'
-import Project from './components/project'
-import Footer from './components/footer'
-import dataProject from './components/data'
-import { Helmet } from 'react-helmet'
+import Hero from "./components/hero";
+import About from "./components/about";
+import Project from "./components/project";
+import Footer from "./components/footer";
+import dataProject from "./components/data";
+import { Helmet } from "react-helmet";
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
       <Project data={dataProject} />
       <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
