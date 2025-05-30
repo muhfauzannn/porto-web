@@ -1,5 +1,4 @@
 import RealTimeClock from './time';
-import React from "react"
 
 export default function Footer() {
 
@@ -22,28 +21,28 @@ export default function Footer() {
               <a href='https://www.instagram.com/mfauuzaannn/'>
                 <div className='flex w-60 justify-between py-4 px-3 border-2 border-black rounded-md group hover:bg-black'>
                   <p className='group-hover:text-white'>Instagram</p>
-                  <i class="fi fi-br-arrow-up-right group-hover:text-white"></i>
+                  <i className="fi fi-br-arrow-up-right group-hover:text-white"></i>
                 </div>
               </a>
   
               <a href='https://wa.me/6285155349773/'>
                 <div className='flex w-60 justify-between py-4 px-3 border-2 border-black rounded-md group hover:bg-black transition-all'>
                   <p className='group-hover:text-white '>WhatsApp</p>
-                  <i class="fi fi-br-arrow-up-right group-hover:text-white"></i>
+                  <i className="fi fi-br-arrow-up-right group-hover:text-white"></i>
                 </div>
               </a>
   
               <a href='https://www.linkedin.com/in/muhammad-fauzan14/'>
                 <div className='flex w-60 justify-between py-4 px-3 border-2 border-black rounded-md group hover:bg-black transition-all'>
                   <p className='group-hover:text-white'>Linkedin</p>
-                  <i class="fi fi-br-arrow-up-right group-hover:text-white"></i>
+                  <i className="fi fi-br-arrow-up-right group-hover:text-white"></i>
                 </div>
               </a>
   
               <a href='https://x.com/mineszero14'>
                 <div className='flex w-60 justify-between py-4 px-3 border-2 border-black rounded-md group hover:bg-black transition-all'>
                   <p className='group-hover:text-white'>Twitter</p>
-                  <i class="fi fi-br-arrow-up-right group-hover:text-white"></i>
+                  <i className="fi fi-br-arrow-up-right group-hover:text-white"></i>
                 </div>
               </a>
             
